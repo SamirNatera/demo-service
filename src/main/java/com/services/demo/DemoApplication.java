@@ -16,7 +16,7 @@ public class DemoApplication {
 	
 	@GetMapping(path = "version", produces = MediaType.APPLICATION_JSON_VALUE)
 	private String version() {
-		return "v1.0 - Samir";
+		return "v1.0";
 	}
 
 }
