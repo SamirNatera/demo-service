@@ -13,10 +13,10 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	
+
 	@GetMapping(path = "version", produces = MediaType.APPLICATION_JSON_VALUE)
 	private String version() {
-		return "v1.0";
+		String version = "1.0";
+		return version;
 	}
-
 }
